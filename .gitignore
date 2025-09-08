@@ -1,0 +1,13 @@
+*.psd
+/assets/images/##PSD/
+/assets/images/_about
+/assets/images/_blog
+/assets/images/_client-logos
+/assets/images/_dashboard-screenshots
+/assets/images/_features
+/assets/images/_hero
+/assets/images/_partners
+/assets/images/_projects
+/assets/images/_services
+/assets/images/_team
+/assets/images/_widgets
