@@ -24,7 +24,7 @@
     <script src="assets/js/cookies.js"></script>
 
 
-
+          
     <script>
         // JavaScript para el slider de proyectos
         document.addEventListener('DOMContentLoaded', function() {

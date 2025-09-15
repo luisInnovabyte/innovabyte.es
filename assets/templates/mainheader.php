@@ -1,4 +1,4 @@
-  <div class="header-upper">
+<div class="header-upper">
                 <div class="container clearfix">
                     <div class="header-inner py-20">
                         <div class="logo-outer">
@@ -60,12 +60,8 @@
                             </div> -->
                             
                         </div>
-<!-- 
-                        <div class="menu-right d-none d-lg-flex align-items-center">
-                            <a href="contact.html" class="login">Login <i class="fas fa-lock"></i></a>
-                            <a href="contact.html" class="theme-btn style-two">sign up <i class="fas fa-arrow-right"></i></a>
-                        </div> -->
-
+                        <!-- Botón de Feedback -->
+                        <a id="zammad-feedback-form" class="btn btn-primary ms-3" href="https://tickets.ra98.online" target="_blank" rel="noopener noreferrer">Gestión Tickets</a>
                     </div>
                 </div>
             </div>
