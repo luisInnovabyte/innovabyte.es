@@ -28,13 +28,13 @@
     <meta property="og:description" content="Desarrollo de software, ecommerce y digitalización para empresas. Soluciones tecnológicas en Valencia." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://innovabyte.es/" />
-    <meta property="og:image" content="https://innovabyte.es/assets/images/marco_Logo.png" />
+    <meta property="og:image" content="https://innovabyte.es/assets/images/marco_Favicon.png" />
 
     <!-- Twitter Card: para compartir en Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="InnovaByte - Software a medida y soluciones digitales" />
     <meta name="twitter:description" content="Desarrollo de software, ecommerce y digitalización para empresas. Soluciones tecnológicas en Valencia." />
-    <meta name="twitter:image" content="https://innovabyte.es/assets/images/marco_Logo.png" />
+    <meta name="twitter:image" content="https://innovabyte.es/assets/images/marco_Favicon.png" />
 
     <!-- Favicon e iconos para dispositivos -->
     <link rel="shortcut icon" href="assets/images/marco_Favicon.png" type="image/x-icon">
