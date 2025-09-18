@@ -164,6 +164,15 @@ if ($_POST && isset($_POST['contact_form'])) {
 </head>
 
 <body class="home-three dark-body">
+    
+
+     <!-- Google Tag Manager (noscript) -->
+     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPJT8LDC"
+     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+     <!-- End Google Tag Manager (noscript) -->
+
+
+
     <div class="page-wrapper">
 
         <!-- Preloader -->

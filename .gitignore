@@ -1,4 +1,6 @@
 *.psd
+*.zip
+*.rar
 /assets/images/##PSD/
 /assets/images/_about
 /assets/images/_blog
