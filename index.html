@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Redirigiendo…</title>
+<meta name="robots" content="noindex">
+<script>
+  (function () {
+    // Conserva querystring y hash
+    var destino = 'index.php' + window.location.search + window.location.hash;
+    // replace evita que el usuario vuelva a esta página con el botón atrás
+    window.location.replace(destino);
+  })();
+</script>
+</head>
+<body>
+<noscript>
+<p>Si no se redirige automáticamente, visita <a href="index.php">index.php</a>.</p>
+</noscript>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPJT8LDC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+</html>
