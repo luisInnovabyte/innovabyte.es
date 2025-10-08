@@ -3,22 +3,24 @@
     <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content" style="background: linear-gradient(135deg, #CC7700 0%, #FF8C00 100%); border: none; border-radius: 20px; overflow: hidden;">
             <div class="modal-header" style="border: none; padding: 30px 40px 0; position: relative;">
-                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(assets/images/shapes/dots.png); opacity: 0.1; background-size: cover;"></div>
-                <div style="width: 100%; text-align: center; position: relative; z-index: 2;">
-                    <h2 class="modal-title text-white" style="font-size: 2.5rem; font-weight: 700; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-                        🤝 Programa Código Amigo Innovabyte
-                    </h2>
-                    <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-top: 10px;">
-                        Gana dinero recomendando nuestros servicios digitales
-                    </p>
-                </div>
-                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Cerrar" style="position: absolute; right: 20px; top: 20px; font-size: 2rem; opacity: 0.8; z-index: 3;">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+               <!-- Aquí es donde iria el encabezado del modal, que se muestra por encima del body -->
             </div>
             
             <div class="modal-body" style="padding: 30px 40px; position: relative; z-index: 2;">
-                
+                    <!-- Título del modal -->     
+                 <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(assets/images/shapes/dots.png); opacity: 0.1; background-size: cover;"></div>
+                 <div style="width: 100%; text-align: center; position: relative; z-index: 2;">
+                     <h2 class="modal-title text-white" style="font-size: 2.5rem; font-weight: 700; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+                         🤝 Programa Código Amigo Innovabyte
+                     </h2>
+                     <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-top: 10px;">
+                         Gana dinero recomendando nuestros servicios digitales
+                     </p>
+                 </div>
+                 <button type="button" class="close text-white" data-dismiss="modal" aria-label="Cerrar" style="position: absolute; right: 20px; top: 20px; font-size: 2rem; opacity: 0.8; z-index: 3;">
+                     <span aria-hidden="true">&times;</span>
+                 </button>
+
                 <!-- Objetivo del programa -->
                 <div style="background: rgba(255,255,255,0.95); padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                     <h3 style="color: #CC7700; margin-bottom: 20px; font-size: 1.8rem; font-weight: 700;">
@@ -189,8 +191,12 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 
 
+=======
+                 
+>>>>>>> codigo
                 <div style="text-align: center; width: 100%;">
                     <h4 style="color: white; margin-bottom: 20px; font-size: 1.5rem;">¡Únete al Programa Código Amigo!</h4>
                     <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
@@ -203,7 +209,14 @@
                     </div>
                 </div>
 
+<<<<<<< HEAD
 
+=======
+            </div>
+            
+            <div class="modal-footer" style="border: none; padding: 20px 40px 40px; justify-content: center;">
+               <!-- Aquí es donde iria el pie del modal, que se muestra por encima del body -->
+>>>>>>> codigo
             </div>
             
             <!-- <div class="modal-footer" style="border: none; padding: 20px 40px 40px; justify-content: center;">
