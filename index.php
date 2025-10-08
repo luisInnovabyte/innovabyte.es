@@ -160,6 +160,32 @@ if ($_POST && isset($_POST['contact_form'])) {
                 opacity: 1;
             }
         }
+     
+     
+/* Para código amigo */
+      @keyframes shine {
+          0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+          50% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+          100% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+      }
+      
+      .codigo-amigo-benefit:hover {
+          transform: translateY(-8px) scale(1.02);
+          box-shadow: 0 25px 50px rgba(0,0,0,0.25) !important;
+      }
+      
+      @media (max-width: 768px) {
+          .codigo-amigo-benefit {
+              margin-bottom: 25px;
+          }
+      }
+/* Fin codigo amigo */
+
+     
+     
+     
+     
+     
      </style>
 </head>
 
@@ -497,7 +523,7 @@ if ($_POST && isset($_POST['contact_form'])) {
                             <span class="sub-title" style="color: rgba(255,255,255,0.9); font-weight: 600;">🤝 Programa de Referidos</span>
                             <h2 style="color: white; font-size: 3.5rem; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Código Amigo Innovabyte</h2>
                             <p style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: 500; max-width: 700px; margin: 0 auto;">
-                                Recomienda nuestros servicios y <strong>gana dinero</strong> con cada cliente que nos referencíes. 
+                                Recomienda nuestros servicios y <strong>gana dinero</strong> con cada cliente que nos referencies. 
                                 <br>¡Cuantos más clientes recomiendes, mayor será tu porcentaje!
                             </p>
                         </div>
@@ -506,7 +532,7 @@ if ($_POST && isset($_POST['contact_form'])) {
 
                                 
                 <!-- Beneficios principales -->
-                <div class="row justify-content-center mb-60">
+                <!-- <div class="row justify-content-center mb-60"> -->
                     <!-- <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="codigo-amigo-benefit wow fadeInUp delay-0-2s" style="background: rgba(255,255,255,0.95); padding: 35px 25px; border-radius: 20px; text-align: center; height: 100%; box-shadow: 0 15px 35px rgba(0,0,0,0.15); position: relative; overflow: hidden; transition: all 0.4s ease;">
                             <div style="position: absolute; top: -50px; right: -50px; width: 100px; height: 100px; background: linear-gradient(45deg, #FFB347, #CC7700); border-radius: 50%; opacity: 0.1;"></div>
@@ -579,7 +605,7 @@ if ($_POST && isset($_POST['contact_form'])) {
                             </div>
                         </div>
                     </div> -->
-                </div>
+                <!-- </div> -->
 
                 <!-- Proceso de participación mejorado -->
                 <div class="row justify-content-center mb-50">
@@ -648,27 +674,10 @@ if ($_POST && isset($_POST['contact_form'])) {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
 
-                <style>
-                    @keyframes shine {
-                        0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
-                        50% { transform: translateX(100%) translateY(100%) rotate(45deg); }
-                        100% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
-                    }
-                    
-                    .codigo-amigo-benefit:hover {
-                        transform: translateY(-8px) scale(1.02);
-                        box-shadow: 0 25px 50px rgba(0,0,0,0.25) !important;
-                    }
-                    
-                    @media (max-width: 768px) {
-                        .codigo-amigo-benefit {
-                            margin-bottom: 25px;
-                        }
-                    }
-                </style>
-
+                
                 <!-- Call to action -->
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-10 text-center">
@@ -676,7 +685,7 @@ if ($_POST && isset($_POST['contact_form'])) {
                             <h3 style="color: #CC7700; margin-bottom: 20px; font-size: 2.2rem;">¡Únete al Programa Código Amigo!</h3>
                             <p style="color: #333; font-size: 1.2rem; margin-bottom: 30px; line-height: 1.6;">
                                 Empieza a ganar dinero recomendando nuestras soluciones digitales. 
-                                <br><strong>Cuantos más clientes referencíes, más ganas.</strong>
+                                <br><strong>Cuantos más clientes referencies, más ganas.</strong>
                             </p>
                             <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
                                 <a href="contact.php" class="theme-btn" style="background: #CC7700; padding: 15px 30px; font-size: 1.1rem; border-radius: 8px; text-decoration: none; color: white; display: inline-flex; align-items: center; gap: 10px; transition: all 0.3s;">
