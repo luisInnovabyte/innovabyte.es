@@ -2,6 +2,7 @@
 *.zip
 *.rar
 *.md
+*.jar
 /assets/images/##PSD/
 /assets/images/_about
 /assets/images/_blog
