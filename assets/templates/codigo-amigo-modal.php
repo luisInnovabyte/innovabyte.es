@@ -190,9 +190,7 @@
                     </div>
                 </div>
                 
-            </div>
-            
-            <div class="modal-footer" style="border: none; padding: 20px 40px 40px; justify-content: center;">
+
                 <div style="text-align: center; width: 100%;">
                     <h4 style="color: white; margin-bottom: 20px; font-size: 1.5rem;">¡Únete al Programa Código Amigo!</h4>
                     <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
@@ -204,7 +202,13 @@
                         </a>
                     </div>
                 </div>
+
+
             </div>
+            
+            <!-- <div class="modal-footer" style="border: none; padding: 20px 40px 40px; justify-content: center;">
+                Aqui iría el footer, pero se ve por encima del body
+            </div> -->
         </div>
     </div>
 </div>
