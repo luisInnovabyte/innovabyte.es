@@ -483,6 +483,218 @@ if ($_POST && isset($_POST['contact_form'])) {
         <!--====== Services Section End ======-->
         
         
+        <!--====== Código Amigo Innovabyte Section Start ======-->
+        <section class="codigo-amigo-section rel z-1 pt-60 pb-70 rpt-40 rpb-100" style="background: linear-gradient(135deg, #CC7700 0%, #FF8C00 100%); position: relative; overflow: hidden;">
+            <!-- Elementos decorativos de fondo -->
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(assets/images/shapes/dots.png); opacity: 0.1; background-size: cover;"></div>
+            <div style="position: absolute; top: 20%; right: -50px; width: 200px; height: 200px; border-radius: 50%; background: rgba(255,255,255,0.05);"></div>
+            <div style="position: absolute; bottom: 20%; left: -50px; width: 150px; height: 150px; border-radius: 50%; background: rgba(255,255,255,0.08);"></div>
+            
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-8 col-lg-10 col-md-12">
+                        <div class="section-title mb-60 text-white">
+                            <span class="sub-title" style="color: rgba(255,255,255,0.9); font-weight: 600;">🤝 Programa de Referidos</span>
+                            <h2 style="color: white; font-size: 3.5rem; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Código Amigo Innovabyte</h2>
+                            <p style="color: rgba(255,255,255,0.95); font-size: 1.3rem; font-weight: 500; max-width: 700px; margin: 0 auto;">
+                                Recomienda nuestros servicios y <strong>gana dinero</strong> con cada cliente que nos referencíes. 
+                                <br>¡Cuantos más clientes recomiendes, mayor será tu porcentaje!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                                
+                <!-- Beneficios principales -->
+                <div class="row justify-content-center mb-60">
+                    <!-- <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="codigo-amigo-benefit wow fadeInUp delay-0-2s" style="background: rgba(255,255,255,0.95); padding: 35px 25px; border-radius: 20px; text-align: center; height: 100%; box-shadow: 0 15px 35px rgba(0,0,0,0.15); position: relative; overflow: hidden; transition: all 0.4s ease;">
+                            <div style="position: absolute; top: -50px; right: -50px; width: 100px; height: 100px; background: linear-gradient(45deg, #FFB347, #CC7700); border-radius: 50%; opacity: 0.1;"></div>
+                            <div style="font-size: 3.5rem; margin-bottom: 20px; position: relative; z-index: 2;">💰</div>
+                            <h4 style="color: #CC7700; margin-bottom: 15px; font-size: 1.4rem; font-weight: 700;">Bonificación Escalonada</h4>
+                            <div style="color: #333; font-size: 1rem; line-height: 1.8; position: relative; z-index: 2;">
+                                <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 15px; margin: 8px 0; background: linear-gradient(90deg, #f8f9fa, #e9ecef); border-radius: 8px; border-left: 4px solid #CC7700;">
+                                    <span><strong>1-3 clientes:</strong></span> 
+                                    <span style="color: #CC7700; font-weight: bold; font-size: 1.1rem;">5%</span>
+                                </div>
+                                <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 15px; margin: 8px 0; background: linear-gradient(90deg, #fff3cd, #ffeaa7); border-radius: 8px; border-left: 4px solid #FF8C00;">
+                                    <span><strong>4-6 clientes:</strong></span> 
+                                    <span style="color: #FF8C00; font-weight: bold; font-size: 1.1rem;">7%</span>
+                                </div>
+                                <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 15px; margin: 8px 0; background: linear-gradient(90deg, #d1ecf1, #74b9ff); border-radius: 8px; border-left: 4px solid #0099cc;">
+                                    <span><strong>7+ clientes:</strong></span> 
+                                    <span style="color: #0099cc; font-weight: bold; font-size: 1.1rem;">10%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="codigo-amigo-benefit wow fadeInUp delay-0-4s" style="background: rgba(255,255,255,0.95); padding: 35px 25px; border-radius: 20px; text-align: center; height: 100%; box-shadow: 0 15px 35px rgba(0,0,0,0.15); position: relative; overflow: hidden; transition: all 0.4s ease;">
+                            <div style="position: absolute; top: -50px; left: -50px; width: 100px; height: 100px; background: linear-gradient(45deg, #48CAE4, #0077B6); border-radius: 50%; opacity: 0.1;"></div>
+                            <div style="font-size: 3.5rem; margin-bottom: 20px; position: relative; z-index: 2;">⚡</div>
+                            <h4 style="color: #CC7700; margin-bottom: 15px; font-size: 1.4rem; font-weight: 700;">Opciones Flexibles</h4>
+                            <div style="color: #333; font-size: 1rem; line-height: 1.8; position: relative; z-index: 2;">
+                                <div style="display: flex; align-items: center; padding: 10px; margin: 8px 0; background: rgba(40, 167, 69, 0.1); border-radius: 10px; border-left: 4px solid #28a745;">
+                                    <span style="font-size: 1.5rem; margin-right: 12px;">💸</span>
+                                    <span><strong>Pago en efectivo</strong></span>
+                                </div>
+                                <div style="display: flex; align-items: center; padding: 10px; margin: 8px 0; background: rgba(255, 193, 7, 0.1); border-radius: 10px; border-left: 4px solid #ffc107;">
+                                    <span style="font-size: 1.5rem; margin-right: 12px;">🔄</span>
+                                    <span><strong>Bolsa de horas</strong> de servicios</span>
+                                </div>
+                                <div style="display: flex; align-items: center; padding: 10px; margin: 8px 0; background: rgba(0, 123, 255, 0.1); border-radius: 10px; border-left: 4px solid #007bff;">
+                                    <span style="font-size: 1.5rem; margin-right: 12px;">📈</span>
+                                    <span><strong>Sobre precio</strong> sin IVA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="codigo-amigo-benefit wow fadeInUp delay-0-6s" style="background: rgba(255,255,255,0.95); padding: 35px 25px; border-radius: 20px; text-align: center; height: 100%; box-shadow: 0 15px 35px rgba(0,0,0,0.15); position: relative; overflow: hidden; transition: all 0.4s ease;">
+                            <div style="position: absolute; bottom: -50px; right: -50px; width: 100px; height: 100px; background: linear-gradient(45deg, #90EE90, #228B22); border-radius: 50%; opacity: 0.1;"></div>
+                            <div style="font-size: 3.5rem; margin-bottom: 20px; position: relative; z-index: 2;">📅</div>
+                            <h4 style="color: #CC7700; margin-bottom: 15px; font-size: 1.4rem; font-weight: 700;">Pagos Puntuales</h4>
+                            <div style="color: #333; font-size: 1rem; line-height: 1.8; position: relative; z-index: 2;">
+                                <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px 15px; margin: 8px 0; background: linear-gradient(90deg, #e8f5e8, #d4edda); border-radius: 10px; border-left: 4px solid #28a745;">
+                                    <div style="display: flex; align-items: center;">
+                                        <span style="font-size: 1.3rem; margin-right: 10px;">🚀</span>
+                                        <span><strong>Venta al contado</strong></span>
+                                    </div>
+                                    <span style="color: #28a745; font-weight: bold;">30 días</span>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px 15px; margin: 8px 0; background: linear-gradient(90deg, #fff3cd, #ffeaa7); border-radius: 10px; border-left: 4px solid #ffc107;">
+                                    <div style="display: flex; align-items: center;">
+                                        <span style="font-size: 1.3rem; margin-right: 10px;">📊</span>
+                                        <span><strong>Pago aplazado</strong></span>
+                                    </div>
+                                    <span style="color: #e67e22; font-weight: bold;">Semestral</span>
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px 15px; margin: 8px 0; background: linear-gradient(90d, #e3f2fd, #bbdefb); border-radius: 10px; border-left: 4px solid #2196f3;">
+                                    <div style="display: flex; align-items: center;">
+                                        <span style="font-size: 1.3rem; margin-right: 10px;">☁️</span>
+                                        <span><strong>Modelo SaaS</strong></span>
+                                    </div>
+                                    <span style="color: #2196f3; font-weight: bold;">Semestral</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- Proceso de participación mejorado -->
+                <div class="row justify-content-center mb-50">
+                    <div class="col-xl-12 col-lg-12">
+                        <div style="background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%); padding: 50px 40px; border-radius: 25px; backdrop-filter: blur(15px); border: 2px solid rgba(255,255,255,0.2); box-shadow: 0 25px 45px rgba(0,0,0,0.1);">
+                            <h3 style="color: white; text-align: center; margin-bottom: 50px; font-size: 2.5rem; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+                                🎯 ¿Cómo funciona el programa?
+                            </h3>
+                            
+                            <!-- Timeline con conectores -->
+                            <div class="row position-relative">
+                                <!-- Línea conectora (solo en desktop) -->
+                                <div style="position: absolute; top: 60px; left: 12.5%; right: 12.5%; height: 4px; background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 15%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0.3) 85%, transparent 100%); z-index: 1; display: none;" class="d-md-block"></div>
+                                
+                                <div class="col-md-3 text-center mb-40 position-relative" style="z-index: 2;">
+                                    <div class="wow fadeInUp delay-0-2s" style="position: relative;">
+                                        <div style="background: linear-gradient(135deg, #FF6B6B, #FF8E8E); border-radius: 50%; width: 120px; height: 120px; margin: 0 auto 25px; display: flex; align-items: center; justify-content: center; box-shadow: 0 15px 35px rgba(255,107,107,0.4); position: relative; overflow: hidden; transform: translateZ(0);">
+                                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.3) 50%, transparent 70%); animation: shine 3s ease-in-out infinite;"></div>
+                                            <i class="fas fa-user-plus" style="color: white; font-size: 2.5rem; position: relative; z-index: 2;"></i>
+                                        </div>
+                                        <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); margin-top: -10px;">
+                                            <h5 style="color: #FF6B6B; margin-bottom: 12px; font-weight: 700; font-size: 1.2rem;">1. Recomienda</h5>
+                                            <p style="color: #333; font-size: 0.95rem; line-height: 1.6; margin: 0;">Envíanos los datos del cliente potencial por cualquier medio</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-3 text-center mb-40 position-relative" style="z-index: 2;">
+                                    <div class="wow fadeInUp delay-0-4s" style="position: relative;">
+                                        <div style="background: linear-gradient(135deg, #4ECDC4, #26D0CE); border-radius: 50%; width: 120px; height: 120px; margin: 0 auto 25px; display: flex; align-items: center; justify-content: center; box-shadow: 0 15px 35px rgba(78,205,196,0.4); position: relative; overflow: hidden;">
+                                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.3) 50%, transparent 70%); animation: shine 3s ease-in-out infinite 0.5s;"></div>
+                                            <i class="fas fa-handshake" style="color: white; font-size: 2.5rem; position: relative; z-index: 2;"></i>
+                                        </div>
+                                        <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); margin-top: -10px;">
+                                            <h5 style="color: #4ECDC4; margin-bottom: 12px; font-weight: 700; font-size: 1.2rem;">2. Contactamos</h5>
+                                            <p style="color: #333; font-size: 0.95rem; line-height: 1.6; margin: 0;">Nos ponemos en contacto y cerramos el proyecto</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-3 text-center mb-40 position-relative" style="z-index: 2;">
+                                    <div class="wow fadeInUp delay-0-6s" style="position: relative;">
+                                        <div style="background: linear-gradient(135deg, #45B7D1, #3498DB); border-radius: 50%; width: 120px; height: 120px; margin: 0 auto 25px; display: flex; align-items: center; justify-content: center; box-shadow: 0 15px 35px rgba(69,183,209,0.4); position: relative; overflow: hidden;">
+                                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.3) 50%, transparent 70%); animation: shine 3s ease-in-out infinite 1s;"></div>
+                                            <i class="fas fa-check-circle" style="color: white; font-size: 2.5rem; position: relative; z-index: 2;"></i>
+                                        </div>
+                                        <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); margin-top: -10px;">
+                                            <h5 style="color: #45B7D1; margin-bottom: 12px; font-weight: 700; font-size: 1.2rem;">3. Validamos</h5>
+                                            <p style="color: #333; font-size: 0.95rem; line-height: 1.6; margin: 0;">Cuando el cliente paga, validamos tu recomendación</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-3 text-center mb-40 position-relative" style="z-index: 2;">
+                                    <div class="wow fadeInUp delay-0-8s" style="position: relative;">
+                                        <div style="background: linear-gradient(135deg, #96CEB4, #27AE60); border-radius: 50%; width: 120px; height: 120px; margin: 0 auto 25px; display: flex; align-items: center; justify-content: center; box-shadow: 0 15px 35px rgba(150,206,180,0.4); position: relative; overflow: hidden;">
+                                            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.3) 50%, transparent 70%); animation: shine 3s ease-in-out infinite 1.5s;"></div>
+                                            <i class="fas fa-money-bill-wave" style="color: white; font-size: 2.5rem; position: relative; z-index: 2;"></i>
+                                        </div>
+                                        <div style="background: rgba(255,255,255,0.95); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); margin-top: -10px;">
+                                            <h5 style="color: #96CEB4; margin-bottom: 12px; font-weight: 700; font-size: 1.2rem;">4. ¡Cobra!</h5>
+                                            <p style="color: #333; font-size: 0.95rem; line-height: 1.6; margin: 0;">Recibes tu porcentaje según los plazos establecidos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <style>
+                    @keyframes shine {
+                        0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+                        50% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+                        100% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+                    }
+                    
+                    .codigo-amigo-benefit:hover {
+                        transform: translateY(-8px) scale(1.02);
+                        box-shadow: 0 25px 50px rgba(0,0,0,0.25) !important;
+                    }
+                    
+                    @media (max-width: 768px) {
+                        .codigo-amigo-benefit {
+                            margin-bottom: 25px;
+                        }
+                    }
+                </style>
+
+                <!-- Call to action -->
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10 text-center">
+                        <div style="background: rgba(255,255,255,0.95); padding: 50px 40px; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.3);">
+                            <h3 style="color: #CC7700; margin-bottom: 20px; font-size: 2.2rem;">¡Únete al Programa Código Amigo!</h3>
+                            <p style="color: #333; font-size: 1.2rem; margin-bottom: 30px; line-height: 1.6;">
+                                Empieza a ganar dinero recomendando nuestras soluciones digitales. 
+                                <br><strong>Cuantos más clientes referencíes, más ganas.</strong>
+                            </p>
+                            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                                <a href="contact.php" class="theme-btn" style="background: #CC7700; padding: 15px 30px; font-size: 1.1rem; border-radius: 8px; text-decoration: none; color: white; display: inline-flex; align-items: center; gap: 10px; transition: all 0.3s;">
+                                    📧 Contáctanos <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <a href="tel:+34647124790" style="background: transparent; border: 2px solid #CC7700; color: #CC7700; padding: 13px 30px; font-size: 1.1rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; transition: all 0.3s;">
+                                    📞 Llámanos <i class="fas fa-phone"></i>
+                                </a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== Código Amigo Innovabyte Section End ======-->
+        
+        
         <!--====== Dashboard Section Start ======-->
         <section class="dashboard-section rel z-1 py-130 rpy-100">
             <div class="container">
@@ -885,6 +1097,25 @@ if ($_POST && isset($_POST['contact_form'])) {
         </section> -->
         <!--====== Blog Section End ======-->
         
+
+<button class="open-zammad-chat">Chat with us</button>
+
+<script src="https://tickets.ra98.online/assets/chat/chat-no-jquery.min.js"></script>
+<script>
+(function() {
+  new ZammadChat({
+    fontSize: '12px',
+    chatId: 1,
+    show: false
+  });
+})();
+</script>
+
+
+
+
+
+
        
         <!--====== Footer Section Start ======-->
         <footer class="footer-section footer-two bg-gray text-white rel z-1">
@@ -898,6 +1129,8 @@ if ($_POST && isset($_POST['contact_form'])) {
 
     <!-- Scroll Top Button -->
     <button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
+
+    <?php include 'assets/templates/codigo-amigo-modal.php'; ?>
 
  <?php include 'assets/templates/mainjs.php'; ?>
 

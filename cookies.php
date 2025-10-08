@@ -505,6 +505,8 @@
     <!-- Scroll Top Button -->
     <button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
 
+    <?php include 'assets/templates/codigo-amigo-modal.php'; ?>
+
     <?php include 'assets/templates/mainjs.php'; ?>
 
 </body>

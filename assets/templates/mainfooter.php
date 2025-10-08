@@ -53,6 +53,8 @@
                                 <li><a href="ecommerce.php">Tiendas on-line</a></li>
                                 <li><a href="edulink360.php">Edulink 360</a></li>
                                 <li><a href="routeline.php">Routline + </a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#codigoAmigoModal">Código Amigo</a></li>
+                                
                                 <!-- <li><a href="single-service.html">Graphics Design</a></li>
                                 <li><a href="single-service.html">Consultations</a></li>
                                 <li><a href="single-service.html">Application Design</a></li>

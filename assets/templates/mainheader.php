@@ -43,6 +43,7 @@
                                                 <li><a href="team-details.html">Team Profile</a></li>
                                             </ul>
                                         </li> -->
+                                        <li><a href="#" data-toggle="modal" data-target="#codigoAmigoModal">Código Amigo</a></li>
                                         <li><a href="contact.php">contact</a></li>
                                     </ul>
                                 </div>
