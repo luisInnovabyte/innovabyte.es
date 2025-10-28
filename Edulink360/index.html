@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--====== Required meta tags ======-->
+    <!-- Codificación de caracteres -->
+    <meta charset="utf-8" />
+
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WY7SNXVVN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-8WY7SNXVVN');
+    </script>
+    <!-- End Google Analytics -->
+
+    <!-- Compatibilidad con Internet Explorer -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Descripción para SEO (máx. 160 caracteres) -->
+    <meta name="description" content="Edulink360 - Solución digital integral para la gestión de academias y centros educativos. Optimiza matrículas, planificación y seguimiento de alumnos." />
+
+    <!-- Palabras clave para SEO -->
+    <meta name="keywords" content="Edulink360, gestión educativa, academias, software educativo, digitalización educativa, gestión de matrículas" />
+
+    <!-- Autor de la web -->
+    <meta name="author" content="InnovaByte" />
+
+    <!-- Viewport para responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Indexación y seguimiento por buscadores -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Tema de color para navegadores móviles -->
+    <meta name="theme-color" content="#CC7700" />
+
+    <!-- Open Graph: Facebook y redes sociales -->
+    <meta property="og:title" content="Edulink360 - Gestión integral de centros educativos" />
+    <meta property="og:description" content="Solución digital diseñada para optimizar la gestión integral de academias y centros educativos." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://innovabyte.es/Edulink360/" />
+    <meta property="og:image" content="../assets/images/Edulink360_portada.png" />
+
+    <!-- Twitter Card: para compartir en Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Edulink360 - Gestión integral de centros educativos" />
+    <meta name="twitter:description" content="Solución digital diseñada para optimizar la gestión integral de academias y centros educativos." />
+    <meta name="twitter:image" content="../assets/images/Edulink360_portada.png" />
+
+    <!-- Favicon e iconos para dispositivos -->
+    <link rel="shortcut icon" href="../assets/images/marco_Favicon.png" type="image/x-icon">
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="../assets/images/marco_Favicon.png">
+
+    <!-- Canonical URL para SEO -->
+    <link rel="canonical" href="https://innovabyte.es/Edulink360/" />
+
+    <!--====== Title ======-->
+    <title>Edulink360 - Gestión Integral de Centros Educativos | InnovaByte</title>
+    
+    <!--====== Google Fonts ======-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!--====== Font Awesome ======-->
+    <link rel="stylesheet" href="../assets/css/fontawesome.5.9.0.min.css">
+    <!--====== Flaticon CSS ======-->
+    <link rel="stylesheet" href="../assets/css/flaticon.css">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.4.5.3.min.css">
+    <!--====== Magnific Popup ======-->
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <!--====== Slick Slider ======-->
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <!--====== Nice Select ======-->
+    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <!--====== Padding Margin ======-->
+    <link rel="stylesheet" href="../assets/css/spacing.min.css">
+    <!--====== Menu css ======-->
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <!--====== Main css ======-->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!--====== Responsive css ======-->
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+    <!-- Estilos adicionales para la landing page -->
+    <style>
+        .innovabyte-btn {
+            background: linear-gradient(135deg, #CC7700 0%, #e89007 100%);
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(204, 119, 0, 0.3);
+            margin: 20px 0;
+        }
+        
+        .innovabyte-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(204, 119, 0, 0.4);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .landing-hero {
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.95) 0%, rgba(42, 42, 42, 0.9) 100%);
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .landing-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('../assets/images/background/banner-bg.png') center/cover;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #CC7700 0%, #e89007 100%);
+            padding: 60px 0;
+            color: white;
+            text-align: center;
+        }
+        
+        .contact-info {
+            background: rgba(42, 42, 42, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(204, 119, 0, 0.3);
+            margin-top: 40px;
+        }
+        
+        .contact-info h4 {
+            color: #CC7700;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info p {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info a {
+            color: #CC7700;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            color: #e89007;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="dark-body">
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+
+        <!--====== Hero Section Start ======-->
+        <section class="landing-hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-content">
+                            <h1 class="wow fadeInUp delay-0-2s" style="color: white; font-size: 3rem; margin-bottom: 20px;">
+                                <span style="color: #CC7700;">Edulink</span>360
+                            </h1>
+                            <h2 class="wow fadeInUp delay-0-3s" style="color: #CC7700; font-size: 1.5rem; margin-bottom: 30px;">
+                                Gestión Integral de Centros Educativos
+                            </h2>
+                            <p class="wow fadeInUp delay-0-4s" style="color: #c3c3c3; font-size: 1.1rem; line-height: 1.8; margin-bottom: 40px;">
+                                Solución digital diseñada para <strong style="color: #CC7700;">optimizar la gestión integral de academias y centros educativos</strong>.
+                                Centraliza y automatiza procesos clave como la administración de matrículas, planificación de clases, seguimiento de alumnos y gestión financiera.
+                            </p>
+                            <div class="wow fadeInUp delay-0-5s">
+                                <a href="#caracteristicas" class="theme-btn" style="background: #CC7700; margin-right: 20px;">
+                                    Conocer más <i class="fas fa-arrow-down"></i>
+                                </a>
+                                <a href="https://innovabyte.es" target="_blank" class="innovabyte-btn">
+                                    <i class="fas fa-external-link-alt"></i> Visitar InnovaByte.es
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-image wow fadeInRight delay-0-4s" style="text-align: center;">
+                            <img src="../assets/images/Edulink360_portada.png" alt="Edulink360" 
+                                 style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.3);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Shapes -->
+            <img class="dots-shape" src="../assets/images/shapes/white-dots-two.png" alt="Shape">
+            <img class="tringle-shape slideLeftRight" src="../assets/images/shapes/white-tringle.png" alt="Shape">
+            <img class="close-shape" src="../assets/images/shapes/white-close.png" alt="Shape">
+            <img src="../assets/images/newsletter/circle.png" alt="shape" class="banner-circle slideUpRight">
+            <img class="dots-shape-three slideUpDown delay-1-5s" src="../assets/images/shapes/white-dots-three.png" alt="Shape">
+        </section>
+        <!--====== Hero Section End ======-->
+
+        <!--====== ¿Qué es Edulink360? ======-->
+        <section class="py-100 rpy-70" style="background: rgba(26, 26, 26, 0.95);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10">
+                        <div class="text-center mb-60">
+                            <h2 style="color: white; margin-bottom: 30px;">¿Qué es Edulink360?</h2>
+                            <div style="width: 80px; height: 3px; background: #CC7700; margin: 0 auto 40px;"></div>
+                            <p style="color: #c3c3c3; font-size: 1.1rem; line-height: 1.8;">
+                                Edulink360 es una solución digital diseñada para 
+                                <strong style="color: #CC7700; background-color: rgba(204, 119, 0, 0.1); padding: 2px 4px; border-radius: 3px;">
+                                    optimizar la gestión integral de academias y centros educativos
+                                </strong>. Su plataforma intuitiva centraliza y automatiza procesos clave como la administración de
+                                matrículas, la planificación de clases, el seguimiento de alumnos y la gestión financiera.
+                            </p>
+                            <p style="color: #c3c3c3; font-size: 1.1rem; line-height: 1.8; margin-top: 20px;">
+                                Con Edulink360, los responsables y docentes 
+                                <strong style="color: #CC7700; background-color: rgba(204, 119, 0, 0.1); padding: 2px 4px; border-radius: 3px;">
+                                    pueden ahorrar tiempo, mejorar la comunicación y ofrecer una experiencia educativa
+                                </strong> más organizada y eficiente, impulsando así el crecimiento y la calidad del aprendizaje en cada centro.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== Características principales ======-->
+        <section id="caracteristicas" class="py-100 rpy-70" style="background-image: url(../assets/images/shapes/solutions-bg-dots.png);">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="section-title mb-60">
+                            <span class="sub-title" style="color: #CC7700;">Edulink <span style="color: #797979ff;">360</span></span>
+                            <h2 style="color: white;">Características Principales</h2>
+                            <p style="color: #c3c3c3;">Descubre las funcionalidades que hacen de Edulink360 la herramienta perfecta para tu centro educativo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Características en tarjetas -->
+                <div class="row">
+                    <!-- Registro y Gestión de Interesados -->
+                    <div class="col-lg-6 col-md-12 mb-40">
+                        <div style="background: linear-gradient(135deg, rgba(204, 119, 0, 0.1) 0%, rgba(204, 119, 0, 0.05) 100%); border: 1px solid rgba(204, 119, 0, 0.2); border-radius: 15px; padding: 30px; height: 100%;">
+                            <h4 style="color: #CC7700; margin-bottom: 20px; text-align: center;">
+                                <i class="fas fa-users" style="margin-right: 10px;"></i>
+                                Registro y Gestión de Interesados
+                            </h4>
+                            <ul style="list-style: none; padding-left: 0; color: white;">
+                                <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                    <i class="fas fa-user-plus" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Captura de datos de personas interesadas antes de ser alumnos.</span>
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                    <i class="fas fa-bullhorn" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Gestión de intereses para campañas futuras.</span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start;">
+                                    <i class="fas fa-user-check" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Conversión automática a alumno al realizar el pago de matrícula.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Facturación y Control de Pagos -->
+                    <div class="col-lg-6 col-md-12 mb-40">
+                        <div style="background: linear-gradient(135deg, rgba(42, 42, 42, 0.9) 0%, rgba(26, 26, 26, 0.9) 100%); border: 1px solid rgba(204, 119, 0, 0.3); border-radius: 15px; padding: 30px; height: 100%;">
+                            <h4 style="color: #CC7700; margin-bottom: 20px; text-align: center;">
+                                <i class="fas fa-euro-sign" style="margin-right: 10px;"></i>
+                                Facturación y Control de Pagos
+                            </h4>
+                            <ul style="list-style: none; padding-left: 0; color: white;">
+                                <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                    <i class="fas fa-file-invoice" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Emisión automática de facturas proforma completas.</span>
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                    <i class="fas fa-credit-card" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Gestión de pagos parciales y entregas a cuenta.</span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start;">
+                                    <i class="fas fa-file-excel" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Tarifas dinámicas actualizables mediante hojas de cálculo.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Gestión Académica -->
+                    <div class="col-lg-6 col-md-12 mb-40">
+                        <div style="background: linear-gradient(135deg, rgba(42, 42, 42, 0.9) 0%, rgba(26, 26, 26, 0.9) 100%); border: 1px solid rgba(204, 119, 0, 0.3); border-radius: 15px; padding: 30px; height: 100%;">
+                            <h4 style="color: #CC7700; margin-bottom: 20px; text-align: center;">
+                                <i class="fas fa-graduation-cap" style="margin-right: 10px;"></i>
+                                Gestión Académica y Docencia
+                            </h4>
+                            <ul style="list-style: none; padding-left: 0; color: white;">
+                                <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                    <i class="fas fa-chalkboard-teacher" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Administración integral de la enseñanza impartida.</span>
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                    <i class="fas fa-users-cog" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Reorganización periódica de grupos según niveles.</span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start;">
+                                    <i class="fas fa-certificate" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Emisión automática de certificados finales.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Gestión de Alojamientos -->
+                    <div class="col-lg-6 col-md-12 mb-40">
+                        <div style="background: linear-gradient(135deg, rgba(204, 119, 0, 0.1) 0%, rgba(204, 119, 0, 0.05) 100%); border: 1px solid rgba(204, 119, 0, 0.2); border-radius: 15px; padding: 30px; height: 100%;">
+                            <h4 style="color: #CC7700; margin-bottom: 20px; text-align: center;">
+                                <i class="fas fa-bed" style="margin-right: 10px;"></i>
+                                Gestión de Alojamientos
+                            </h4>
+                            <ul style="list-style: none; padding-left: 0; color: white;">
+                                <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                    <i class="fas fa-home" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Administración completa con tarifas y calendario.</span>
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                    <i class="fas fa-star" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Sistema de calificación de satisfacción.</span>
+                                </li>
+                                <li style="display: flex; align-items: flex-start;">
+                                    <i class="fas fa-clipboard-check" style="color: #CC7700; margin-right: 12px; margin-top: 3px; flex-shrink: 0;"></i>
+                                    <span style="font-weight: 300; line-height: 1.6;">Control de inspecciones del centro educativo.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cita destacada -->
+                <div class="row justify-content-center mt-50">
+                    <div class="col-lg-8">
+                        <div style="padding: 30px; background-color: rgba(204, 119, 0, 0.1); border-left: 4px solid #CC7700; border-radius: 10px; text-align: center;">
+                            <p style="font-style: italic; color: #CC7700; font-weight: 400; margin: 0; font-size: 1.2rem;">
+                                "Mientras otros venden software, nosotros ofrecemos soluciones con seguimiento, entendimiento y compromiso real"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== Galería de Pantallas ======-->
+        <section class="py-100 rpy-70" style="background-image: url(../assets/images/background/solutions-bg-dots_desarrollo.png);">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="section-title mb-60">
+                            <span class="sub-title" style="color: #CC7700;">Edulink <span style="color: #797979ff;">360</span></span>
+                            <h2 style="color: white;">Pantallas del Sistema</h2>
+                            <p style="color: #c3c3c3;">Gestiona tu centro educativo con eficiencia y simplicidad</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-slider-wrap">
+                    <div class="project-slider">
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/login.png" alt="Login Edulink360" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Edulink360</h4>
+                                    <p>Acceso por login con distintos perfiles</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/Interesados.png" alt="Listados interesados" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Interesados</h4>
+                                    <p>Listado general de interesados en el centro educativo</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/datos_interesado.png" alt="Ficha interesados" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Detalle ficha interesados</h4>
+                                    <p>Visualización detallada de la información de los interesados</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/factura_proforma.png" alt="Diseño de la factura proforma" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Factura proforma</h4>
+                                    <p>Sistema de gestión de las facturas proforma</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/listado_alojamientos.png" alt="Listado de alojamientos" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Listado de alojamientos</h4>
+                                    <p>Gestión de alojamientos disponibles</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/calendario_alojamiento.png" alt="Calendario de alojamiento" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Calendario de alojamiento</h4>
+                                    <p>Gestión de reservas y disponibilidad de alojamientos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/listado_actividades.png" alt="Listado de actividades" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Listado de actividades</h4>
+                                    <p>Gestión de actividades extras disponibles</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/aulas_listado.png" alt="Listado de aulas" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Listado de aulas</h4>
+                                    <p>Gestión de aulas disponibles</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-slide">
+                            <div class="project-item">
+                                <img src="../assets/images/proyectos/edulink/gestion_rutas.png" alt="Gestión de rutas" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                <div class="project-overlay">
+                                    <h4>Gestión de docencia</h4>
+                                    <p>Gestión de docencia (alumnos, profesorado, clases)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Controles del slider -->
+                    <div class="slider-controls">
+                        <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    
+                    <!-- Indicadores -->
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                        <span class="dot" data-slide="3"></span>
+                        <span class="dot" data-slide="4"></span>
+                        <span class="dot" data-slide="5"></span>
+                        <span class="dot" data-slide="6"></span>
+                        <span class="dot" data-slide="7"></span>
+                        <span class="dot" data-slide="8"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== Problemas que resuelve ======-->
+        <section class="py-100 rpy-70" style="background-image: url(../assets/images/shapes/solutions-bg-dots.png);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <!-- Título principal -->
+                        <div class="text-center mb-60">
+                            <h2 style="color: white; font-weight: 700; margin-bottom: 20px;">
+                                <i class="fas fa-exclamation-triangle" style="color: #CC7700; margin-right: 15px;"></i>
+                                ¿Qué problemas resuelve Edulink360?
+                            </h2>
+                            <div style="width: 80px; height: 3px; background: #CC7700; margin: 0 auto;"></div>
+                        </div>
+                        
+                        <!-- Lista de problemas -->
+                        <div class="row">
+                            <div class="col-lg-6 mb-30">
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #CC7700;">
+                                        <div style="display: flex; align-items: flex-start;">
+                                            <i class="fas fa-file-invoice-dollar" style="color: #CC7700; margin-right: 15px; margin-top: 5px; font-size: 18px;"></i>
+                                            <span style="color: white; font-weight: 300; line-height: 1.6;">Gestión ineficiente y manual de matrículas, pagos y facturación, incluidos pagos parciales y suplidos.</span>
+                                        </div>
+                                    </li>
+                                    <li style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #CC7700;">
+                                        <div style="display: flex; align-items: flex-start;">
+                                            <i class="fas fa-users-cog" style="color: #CC7700; margin-right: 15px; margin-top: 5px; font-size: 18px;"></i>
+                                            <span style="color: white; font-weight: 300; line-height: 1.6;">Dificultad para controlar y organizar grupos según niveles, condiciones personales o familiares.</span>
+                                        </div>
+                                    </li>
+                                    <li style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #CC7700;">
+                                        <div style="display: flex; align-items: flex-start;">
+                                            <i class="fas fa-chart-line" style="color: #CC7700; margin-right: 15px; margin-top: 5px; font-size: 18px;"></i>
+                                            <span style="color: white; font-weight: 300; line-height: 1.6;">Falta de seguimiento detallado del progreso académico y asistencia de los alumnos.</span>
+                                        </div>
+                                    </li>
+                                    <li style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #CC7700;">
+                                        <div style="display: flex; align-items: flex-start;">
+                                            <i class="fas fa-bed" style="color: #CC7700; margin-right: 15px; margin-top: 5px; font-size: 18px;"></i>
+                                            <span style="color: white; font-weight: 300; line-height: 1.6;">Complejidad en la administración y supervisión de alojamientos.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 mb-30">
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #CC7700;">
+                                        <div style="display: flex; align-items: flex-start;">
+                                            <i class="fas fa-calendar-times" style="color: #CC7700; margin-right: 15px; margin-top: 5px; font-size: 18px;"></i>
+                                            <span style="color: white; font-weight: 300; line-height: 1.6;">Gestión dispersa o inexistente de actividades extraacadémicas.</span>
+                                        </div>
+                                    </li>
+                                    <li style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #CC7700;">
+                                        <div style="display: flex; align-items: flex-start;">
+                                            <i class="fas fa-certificate" style="color: #CC7700; margin-right: 15px; margin-top: 5px; font-size: 18px;"></i>
+                                            <span style="color: white; font-weight: 300; line-height: 1.6;">Falta de automatización en la emisión de certificados finales.</span>
+                                        </div>
+                                    </li>
+                                    <li style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #CC7700;">
+                                        <div style="display: flex; align-items: flex-start;">
+                                            <i class="fas fa-comments" style="color: #CC7700; margin-right: 15px; margin-top: 5px; font-size: 18px;"></i>
+                                            <span style="color: white; font-weight: 300; line-height: 1.6;">Falta de seguimiento en la comunicación y acceso del alumno al sistema.</span>
+                                        </div>
+                                    </li>
+                                    <li style="margin-bottom: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 10px; border-left: 4px solid #CC7700;">
+                                        <div style="display: flex; align-items: flex-start;">
+                                            <i class="fas fa-bullhorn" style="color: #CC7700; margin-right: 15px; margin-top: 5px; font-size: 18px;"></i>
+                                            <span style="color: white; font-weight: 300; line-height: 1.6;">Escasa recopilación y aprovechamiento de datos sobre interesados para campañas de marketing y fidelización posteriores.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <img class="dots-shape" src="../assets/images/shapes/white-dots.png" alt="Shape">
+            <img class="tringle-shape" src="../assets/images/shapes/tringle.png" alt="Shape">
+            <img class="close-shape" src="../assets/images/shapes/yellow-close.png" alt="Shape">
+            <div class="left-circles"></div>
+            <div class="right-circles"></div>
+        </section>
+
+        <!--====== ¿Por qué Edulink360? ======-->
+        <section class="py-100 rpy-70" style="background: rgba(26, 26, 26, 0.95);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10 col-lg-11 col-md-12">
+                        <div style="background: linear-gradient(135deg, rgba(204, 119, 0, 0.1) 0%, rgba(204, 119, 0, 0.05) 100%); border: 1px solid rgba(204, 119, 0, 0.2); border-radius: 15px; padding: 30px; margin: 20px auto;">
+                            <h3 style="color: #CC7700; text-align: center; margin-bottom: 25px; font-weight: 700;">
+                                <i class="fas fa-graduation-cap" style="margin-right: 10px;"></i>
+                                ¿Por qué Edulink360 es ideal para tu centro educativo?
+                            </h3>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul style="list-style: none; padding-left: 0; color: white; margin-bottom: 0;">
+                                        <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                            <i class="fas fa-users" style="color: #CC7700; margin-right: 12px; margin-top: 5px; flex-shrink: 0;"></i>
+                                            <span style="font-weight: 300; line-height: 1.6;">Gestiona grandes volúmenes de alumnos e interesados de manera eficiente.</span>
+                                        </li>
+                                        <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                            <i class="fas fa-euro-sign" style="color: #CC7700; margin-right: 12px; margin-top: 5px; flex-shrink: 0;"></i>
+                                            <span style="font-weight: 300; line-height: 1.6;">Controla matrículas, pagos y facturación de forma automatizada.</span>
+                                        </li>
+                                        <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                            <i class="fas fa-calendar-alt" style="color: #CC7700; margin-right: 12px; margin-top: 5px; flex-shrink: 0;"></i>
+                                            <span style="font-weight: 300; line-height: 1.6;">Gestiona cursos, horarios y actividades de manera integral.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul style="list-style: none; padding-left: 0; color: white; margin-bottom: 0;">
+                                        <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                            <i class="fas fa-globe" style="color: #CC7700; margin-right: 12px; margin-top: 5px; flex-shrink: 0;"></i>
+                                            <span style="font-weight: 300; line-height: 1.6;">Ideal para academias con estudiantes internacionales.</span>
+                                        </li>
+                                        <li style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+                                            <i class="fas fa-chart-line" style="color: #CC7700; margin-right: 12px; margin-top: 5px; flex-shrink: 0;"></i>
+                                            <span style="font-weight: 300; line-height: 1.6;">Optimiza tiempo y recursos aumentando la calidad educativa.</span>
+                                        </li>
+                                        <li style="margin-bottom: 0; display: flex; align-items: flex-start;">
+                                            <i class="fas fa-cogs" style="color: #CC7700; margin-right: 12px; margin-top: 5px; flex-shrink: 0;"></i>
+                                            <span style="font-weight: 300; line-height: 1.6;">Se adapta a diferentes especialidades y modalidades.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== Call to Action Section ======-->
+        <section class="cta-section">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <h2 style="margin-bottom: 20px;">¿Listo para revolucionar tu centro educativo?</h2>
+                        <p style="font-size: 1.1rem; margin-bottom: 40px; opacity: 0.9;">
+                            Descubre cómo Edulink360 puede transformar la gestión de tu academia con tecnología de vanguardia y soporte personalizado.
+                        </p>
+                        <div>
+                            <a href="https://innovabyte.es/contact.php" target="_blank" class="theme-btn" style="background: white; color: #CC7700; margin-right: 20px; border: 2px solid white;">
+                                <i class="fas fa-envelope"></i> Solicitar Información
+                            </a>
+                            <a href="https://innovabyte.es" target="_blank" class="theme-btn" style="background: transparent; color: white; border: 2px solid white;">
+                                <i class="fas fa-external-link-alt"></i> Visitar InnovaByte.es
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== Información de Contacto ======-->
+        <section class="py-100 rpy-70" style="background: rgba(26, 26, 26, 0.95);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="contact-info">
+                            <h4 style="text-align: center; margin-bottom: 30px;">
+                                <i class="fas fa-headset" style="margin-right: 10px;"></i>
+                                ¿Necesitas más información?
+                            </h4>
+                            <div class="row">
+                                <div class="col-md-6 text-center">
+                                    <p style="margin-bottom: 15px;">
+                                        <i class="fas fa-envelope" style="color: #CC7700; margin-right: 10px;"></i>
+                                        <strong>Email:</strong> <a href="mailto:info@innovabyte.es">info@innovabyte.es</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <p style="margin-bottom: 15px;">
+                                        <i class="fas fa-phone" style="color: #CC7700; margin-right: 10px;"></i>
+                                        <strong>Teléfono:</strong> <a href="tel:+34647124790">+34 647 124 790</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-center" style="margin-top: 20px;">
+                                <p style="margin-bottom: 0; font-style: italic; color: #c3c3c3;">
+                                    Desarrollado por <a href="https://innovabyte.es" target="_blank" style="color: #CC7700; font-weight: 600;">InnovaByte</a> - 
+                                    Tu partner tecnológico de confianza
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!--End pagewrapper-->
+
+    <!-- Scroll Top Button -->
+    <button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
+
+    <!--====== Scripts ======-->
+    <!--====== Jquery ======-->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap ======-->
+    <script src="../assets/js/bootstrap.4.5.3.min.js"></script>
+    <!--====== Appear js ======-->
+    <script src="../assets/js/appear.js"></script>
+    <!--====== WOW js ======-->
+    <script src="../assets/js/wow.min.js"></script>
+    <!--====== Isotope ======-->
+    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <!--====== Circle Progress ======-->
+    <script src="../assets/js/circle-progress.min.js"></script>
+    <!--====== Image loaded ======-->
+    <script src="../assets/js/imagesloaded.pkgd.min.js"></script>
+    <!--====== Nice Select ======-->
+    <script src="../assets/js/jquery.nice-select.min.js"></script>
+    <!--====== Magnific ======-->
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <!--====== Slick Slider ======-->
+    <script src="../assets/js/slick.min.js"></script>
+    <!--====== Main JS ======-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- JavaScript personalizado para la landing page -->
+    <script>
+        // Inicializar WOW.js para animaciones
+        new WOW().init();
+
+        // JavaScript para el slider de proyectos
+        document.addEventListener('DOMContentLoaded', function() {
+            const slider = document.querySelector('.project-slider');
+            const slides = document.querySelectorAll('.project-slide');
+            const prevBtn = document.querySelector('.prev-btn');
+            const nextBtn = document.querySelector('.next-btn');
+            const dots = document.querySelectorAll('.dot');
+            
+            if (!slider || !slides.length) return;
+            
+            let currentSlide = 0;
+            const totalSlides = slides.length;
+            
+            // Función para ir a una diapositiva específica
+            function goToSlide(slideIndex) {
+                currentSlide = slideIndex;
+                slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+                
+                // Actualizar dots
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentSlide);
+                });
+            }
+            
+            // Función para ir a la siguiente diapositiva
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                goToSlide(currentSlide);
+            }
+            
+            // Función para ir a la diapositiva anterior
+            function prevSlide() {
+                currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                goToSlide(currentSlide);
+            }
+            
+            // Event listeners para los botones
+            if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+            if (prevBtn) prevBtn.addEventListener('click', prevSlide);
+            
+            // Event listeners para los dots
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => goToSlide(index));
+            });
+            
+            // Auto-play del slider
+            let autoPlay = setInterval(nextSlide, 6000); // Cambia cada 6 segundos
+            
+            // Pausar auto-play cuando el usuario interactúa
+            const sliderWrap = document.querySelector('.project-slider-wrap');
+            if (sliderWrap) {
+                sliderWrap.addEventListener('mouseenter', () => {
+                    clearInterval(autoPlay);
+                });
+                
+                sliderWrap.addEventListener('mouseleave', () => {
+                    autoPlay = setInterval(nextSlide, 6000);
+                });
+            }
+            
+            // Soporte para gestos táctiles (móviles)
+            let startX = 0;
+            let isDragging = false;
+            
+            if (sliderWrap) {
+                sliderWrap.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].clientX;
+                    isDragging = true;
+                });
+                
+                sliderWrap.addEventListener('touchmove', (e) => {
+                    if (!isDragging) return;
+                    e.preventDefault();
+                });
+                
+                sliderWrap.addEventListener('touchend', (e) => {
+                    if (!isDragging) return;
+                    isDragging = false;
+                    
+                    const endX = e.changedTouches[0].clientX;
+                    const diff = startX - endX;
+                    
+                    if (Math.abs(diff) > 50) { // Mínimo movimiento para activar
+                        if (diff > 0) {
+                            nextSlide();
+                        } else {
+                            prevSlide();
+                        }
+                    }
+                });
+            }
+        });
+
+        // Smooth scroll para enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Efecto hover para las tarjetas de características
+        document.querySelectorAll('.col-lg-6').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+                this.style.transition = 'transform 0.3s ease';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+
+</body>
+</html>
